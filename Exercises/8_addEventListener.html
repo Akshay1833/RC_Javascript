@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 300px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- <button id="hello">Hi</button> -->
+    <!-- addEventListener is a in-built method/function that carries out events directly from js file
+    such as onclick, mouseover, etc... -->
+    <div id="hello"></div>
+    <p>Div has been clicked <span id="count"></span> times</p>
+    <script>
+        var count = 0
+        fetchElement = document.getElementById("hello")
+        fetchElement.addEventListener('click', function(){
+            count++;
+            console.log(count)
+            document.getElementById("count").innerHTML = count;
+        })
+        
+    </script>
+</body>
+</html>

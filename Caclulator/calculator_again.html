@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>New Calculator</title>
+    </head>
+    <body>
+        <table border="5">
+            <tr>
+                <th colspan="3">Input First Number</th>
+                <td colspan="3"><h2 input type="text" placeholder="Enter A Number" id="firstNumber"></h2></td>
+            </tr>
+            <tr>
+                <th colspan="3">Input Second Number</th>
+                <td colspan="3"><input type="text" placeholder="Enter A Number" id="secondNumber"></td>
+            </tr>
+            <tr>
+                <th colspan="3">Result</th>
+                <td colspan="3"><input type="text" placeholder="Answer Is" id="result"></td>
+            </tr>
+            <tr>
+                <td><button onclick="callOne()">1</button></td>
+                <td><button onclick="callTwo()">2</button></td>
+                <td><button onclick="callThree()">3</button></td>
+                <td><button onclick="callPlus()">+</button></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4"></td>
+                <td><input type="button" value="5"></td>
+                <td><input type="button" value="6"></td>
+                <td><input type="button" value="-"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7"></td>
+                <td><input type="button" value="8"></td>
+                <td><input type="button" value="9"></td>
+                <td><input type="button" value="*"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0"></td>
+                <td colspan="2"><input type="button" value="Reset"></td>
+                <td><input type="button" value="/"></td>
+            </tr>
+        </table>
+        <script src="app.js"></script>
+    </body>
+</html>

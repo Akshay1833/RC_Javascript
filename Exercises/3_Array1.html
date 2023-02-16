@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Implement a function “duplicate” to duplicate an array, as shown below:
+        For input arr=[1,2] duplicate(arr) should return [1,2,1,2]
+        dex-kujc-vrd -->
+
+        <script>
+            
+            function duplicate() {
+                arr=[1,2,3];
+                duplicate1 = arr;
+                //for every value in the list [1,2,3]
+                for(var i = 0; i < arr.length; i++) {
+
+                    //add each value in original list
+                    duplicate1.push(arr[i]);
+                    document.write(duplicate1)
+                }
+                // arr.push(arr[0], arr[1]);
+                
+                //document.write(duplicate1);
+                
+            }
+            duplicate();
+
+
+
+
+
+            // array1 = [1, 2, 3, "tomato"];
+            // for (let i = 0; i < array1.length; i++) {
+                
+                
+            //     document.write(array1[i], "<br>")
+            // }
+            // array1.push(4);
+            // document.write(array1)
+            
+        </script>
+</body>
+</html>

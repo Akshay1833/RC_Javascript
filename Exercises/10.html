@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function solve(s) {
+            //..
+            s = "Hello!!"
+
+            const array1 = s.split("");
+            //console.log(array1) //prints out [H,H,e,l,l,o]
+
+            countUpper = 0;
+            countLower = 0;
+            countNumber = 0;
+            countSpecial = 0;
+            array2 = []
+
+
+            for (i = 0; i < array1.length; i++) {
+                temp = array1[i]
+                if (temp == temp.toUpperCase()) {
+
+
+                    countUpper = countUpper + 1;
+                    //console.log(countUpper) 
+                }
+                else if (temp == temp.toLowerCase()) {
+                    countLower = countLower + 1;
+                    //console.log(countLower)
+                }
+
+                else if (temp >= 0) {
+                    countNumber = countNumber + 1;
+                    console.log(countNumber)
+                }
+
+                else if (temp.test(string)) {
+                    countSpecial = countSpecial + 1;
+                }
+            }
+            console.log(countNumber)
+
+        }
+
+
+
+
+
+
+
+
+        // const count = [];
+        // for (i=0; i<array1.length; i++){
+        // check = array1[i];
+        //     if (check in array1.length.toUpperCase()){
+        //         countUpper+=1
+        //         console.log(countUpper)
+        //     }
+
+        //         else if (check==check.toLowerCase()){
+        //             countLower+=1
+        //         }
+
+        //         else if (typeof array1 == 'number'){
+        //             countNumber+=1
+        //         }
+
+        //         else {
+        //             countSpecial+=1
+        //         }
+        //         }
+        //console.log(count.push(countUpper)) 
+        //}
+        //}    
+        solve()
+
+    </script>
+</body>
+
+</html>

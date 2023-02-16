@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Create a new object "car". Itirate over the car object. Find a particular property
+    and delete the property -->
+
+    
+
+    <script>
+        //object is denoted by {}
+        //to access the values (Tesla, Black, 100) can use .nameOfProperty operator document.write(car.Price)
+        //Model, color, Price are known as Keys
+        //To delete a propety from object -> delete objectName.propertyName;
+        // var car = {
+        //     model:'Tesla',
+        //     color:'Black',
+        //     Price: 100
+        // };
+        // document.write(car["Price"])
+        // delete car.color;
+        // console.log(car)
+        // document.write(car.color)
+
+        /*Write a JavaScript program to:
+1. Create a student object with three properties: name, age, and roll no.
+
+2. Create an object address with two properties, City and state and add this 
+object property to the student object.
+3. Now delete the roll no property and print the object before and after deleting the property.
+dex-kujc-vrd */
+        
+var student = {
+    name: "Akshay",
+    age: 25,
+    rollNumber: 001,
+    address: {
+        city: "Mumbai",
+        state: "Maharashtra"
+    }
+}
+//delete student.rollNumber;
+console.log(student)
+
+
+
+    </script>
+</body>
+</html>
