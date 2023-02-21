@@ -10,76 +10,35 @@
 
 <body>
     <script>
-        function solve(s) {
+        function solve(str) {
             //..
-            s = "Hello!!"
-
-            const array1 = s.split("");
-            //console.log(array1) //prints out [H,H,e,l,l,o]
-
-            countUpper = 0;
+            var str = "HHello!!23"
+            var countUpper = 0;
             countLower = 0;
             countNumber = 0;
             countSpecial = 0;
-            array2 = []
+            array1 = []
 
 
-            for (i = 0; i < array1.length; i++) {
-                temp = array1[i]
-                if (temp == temp.toUpperCase()) {
-
-
+            for (var i = 0; i < str.length; i++) {
+                if (str[i] >= "A" && str[i] <= "Z") {
                     countUpper = countUpper + 1;
-                    //console.log(countUpper) 
                 }
-                else if (temp == temp.toLowerCase()) {
-                    countLower = countLower + 1;
-                    //console.log(countLower)
+                else if (str[i] >= "a" && str[i] <= "z") {
+                    countLower += 1
                 }
-
-                else if (temp >= 0) {
-                    countNumber = countNumber + 1;
-                    console.log(countNumber)
+                else if (str[i] >= 0 && str[i] <= 9) {
+                    countNumber += 1
                 }
-
-                else if (temp.test(string)) {
-                    countSpecial = countSpecial + 1;
+                else {
+                    countSpecial += 1
                 }
             }
-            console.log(countNumber)
+            array1.push(countUpper, countLower, countNumber, countSpecial)
+
+            return (array1)
 
         }
-
-
-
-
-
-
-
-
-        // const count = [];
-        // for (i=0; i<array1.length; i++){
-        // check = array1[i];
-        //     if (check in array1.length.toUpperCase()){
-        //         countUpper+=1
-        //         console.log(countUpper)
-        //     }
-
-        //         else if (check==check.toLowerCase()){
-        //             countLower+=1
-        //         }
-
-        //         else if (typeof array1 == 'number'){
-        //             countNumber+=1
-        //         }
-
-        //         else {
-        //             countSpecial+=1
-        //         }
-        //         }
-        //console.log(count.push(countUpper)) 
-        //}
-        //}    
         solve()
 
     </script>

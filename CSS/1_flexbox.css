@@ -1,0 +1,33 @@
+.container {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.container h3 {
+    margin-right: 50px;
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+/* #heading1 {
+    position: absolute;
+    top: 0px;
+    left: 100px
+}
+#heading2 {
+    position: absolute;
+    top: 0px;
+    left: 50px
+}
+#heading3 {
+    position: absolute;
+    top: 0px;
+    left: 150px
+}
+#heading4 {
+    position: absolute;
+    top: 0px;
+    left: 250px
+} */

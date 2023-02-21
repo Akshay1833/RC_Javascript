@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+section {
+    display: flex;
+    /* makes life easier */
+    justify-content: center;
+    /* makes content aligned based on selected attribute */
+    height: 500px;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-wrap makes changes responsive */
+
+}
+
+section div {
+    margin: 20px;
+    text-align: center;
+    border: ;
+}
+
+section div img {
+    border-radius: 50%;
+}
+
+section div p {
+    margin-top: -20px;
+}

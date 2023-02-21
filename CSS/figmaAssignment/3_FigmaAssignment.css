@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+body{
+    background-color: #e5f4ff;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    gap: 20px;
+    
+    position: absolute;
+    width: 1140px;
+    height: 102px;
+    left: 157px;
+    top: 7px;
+    
+    background: #FFFFFF;
+    border-radius: 16px;
+    border-color: #FFFFFF;
+    border: 2px solid green;
+    
+}
+.container p{
+    width: 43px;
+    height: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #2D2B32;
+    padding: 5px;  
+    margin-right: -50px;
+}
+#home {
+    margin-right: -60px;
+}
+#about{
+    margin-right: -60px;
+}
+#solution{
+    margin-right: -40px;
+}
+#platform{
+    margin-right: -40px;
+}
+#benefit{
+    margin-right: -60px;
+}
+
+#login{
+    width: 50px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    background-color: #FFFFFF;
+    letter-spacing: -0.02em;
+    color: #008CFF;
+    padding: 16px 32px;
+    gap: 8px;
+    width: 106px;
+    height: 54px;
+    border: 1px solid #008CFF;
+    border-radius: 12px;
+    margin-right: -75px;
+}
+#freeDemo{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding: 16px 5px;
+    gap: 8px;
+    width: 150px;
+    height: 54px;
+    background: linear-gradient(114.81deg, #008CFF 12.38%, #76F1A9 100.67%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    margin-right:-5px;
+    border-color: linear-gradient(114.81deg, #008CFF 12.38%, #76F1A9 100.67%);;    
+}
+
+.eliminate{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 120px;
+    width: 615px;
+    height: 234px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 56px;
+    line-height: 140%;
+    /* or 78px */
+
+
+    /* Black */
+
+color: #0B0B0B;
+}
+.eliminatePara{
+    display: flex;
+    width: 599px;
+    height: 100px;
+    margin-top: 240px;
+    margin-left: 120px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    letter-spacing: -0.02em;
+}
+.getStarted button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 220px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 40px;
+    gap: 10px;
+
+    width: 288px;
+    height: 72px;
+
+    /* gradint */
+
+    background: linear-gradient(114.81deg, #008CFF 12.38%, #76F1A9 100.67%);
+    /* 2 */
+
+    box-shadow: 0px 12px 48px rgba(81, 79, 89, 0.15);
+    border-radius: 12px;
+    
+}
+.bubble{
+    display: flex;
+    margin-left: 750px;
+    margin-top: -590px;
+    position: relative;
+    
+}
+#help{
+    display: flex;
+    margin-left: 900px;
+    margin-top: -680px;
+    position: absolute;
+}
+#telegram{
+    margin-left: 1210px;
+    margin-top: -1000px;
+    margin-bottom: 550px;
+}
+#textbubble{
+    /* display: flex; */
+    margin-left: 1188px;
+    margin-top: -518px;
+    margin-bottom: 1535px;
+    position: relative;
+}
+#textbubble1{
+    margin-left: 1236px;
+    top: -1538px;
+    position: relative;
+
+}
+#call{
+    margin-left: 1247px;
+    top: -1550px;
+    position: relative;
+}
+#message{
+    margin-left: 1208px;
+    top: -1540px;
+    position: relative;
+}
+#teams{
+    margin-left: 1010px;
+    top: -1587px;
+    position: relative;
+}
+#oracle{
+    margin-left: 778px;
+    top: -2179px;
+    position: relative;
+}
+#whatsapp{
+    margin-left: 735px;
+    top: -2589px;
+    position: relative;
+}
+#textbubble2{
+    margin-left: 822px;
+    top: -2293px;
+    position: relative;
+}
+#eliminate1{
+    width: 5.91px;
+    height: 23.06px;
+    left: -959px;
+    top: -2811px;
+    position: relative;
+}
+#eliminate2{
+    width: 37.01px;
+    height: 35.51px;
+    left: -1032px;
+    top: -2799px;
+    position: relative;
+}
+#eliminate3{
+    width: 24.23px;
+    height: 8.46px;
+    left: -1072px;
+    top: -2769px;
+    position: relative;
+}
+#arrow{
+    position: relative;
+    top: -2143px;
+    left: -626px;
+}
+#arrowhead{
+    position: relative;
+    top: -2182px;
+    left: -721px;
+}
+
+
+
+

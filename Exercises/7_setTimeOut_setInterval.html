@@ -1,34 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-        // function hello() {
-        //     document.write("Hello", "<br>")
-        // }
-        //hello()
+        function hello() {
+         document.write("Hello", "<br>")
+        }
+        //hello(); no need to call this function
+        setTimeout(hello, 4000);
+        //setTimeOut will call function without needing to call it in specified time, eg.4000 milli seconds
+        
 
-        //sets timer for something to be passed, eg. hello function is called after 4000 milli seconds
-        //setTimeout(hello, 4000);
+        
         //sets interval for hello to be printed every 500 milli seconds
         //setInterval(hello, 500);
         //clears the inteval
         //clearInterval()
 
-        count = 10;
-        function timer () {
-            if (count==0) {
-                clearInterval(x)
-            }
-            document.write(count--);
-        }
-        var x = setInterval(timer, 1000);
+        // count = 10;
+        // function timer() {
+        //     if (count == 0) {
+        //         clearInterval(x)
+        //     }
+        //     document.write(count--);
+        // }
+        // var x = setInterval(timer, 1000);
 
     </script>
 </body>
+
 </html>
